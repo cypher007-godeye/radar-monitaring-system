@@ -1,22 +1,30 @@
-# radar-monitaring-system
-Radar-Based Obstacle Detection and Visualization System
-Personal Embedded Systems 
 
-Designed and implemented a radar-style obstacle detection system leveraging an ESP32-DEVKIT-V1, ultrasonic distance sensor (HC-SR04), and servo motor, with a real-time graphical interface built in Processing (Java). The system performs automated environmental scanning across 180°, detecting and visualizing nearby objects on a radar-like display.
+Radar-Based Obstacle Detection System
 
-Project Highlights:
+This project demonstrates a radar-style obstacle detection system using an ESP32-DEVKIT-V1, HC-SR04 ultrasonic sensor, and a servo motor. The system scans the environment in a 180° range, detects objects, and visualizes the data in real-time using a Java (Processing) interface.
 
-Engineered precise servo control for angular scanning and object localization
+Features:
 
-Integrated ultrasonic sensing for accurate distance measurement
+Real-time distance measurement using the ultrasonic sensor
 
-Developed a serial communication protocol between the ESP32 and PC
+Servo-controlled scanning for 180° range
 
-Built an interactive radar interface in Processing to visualize spatial data in real time
+Live radar display in Processing to visualize obstacle data
 
-Demonstrated applications in robotics, automation, and smart surveillance systems
+Serial communication between ESP32 and PC
 
 
-Technologies Used:
-ESP32, HC-SR04, Servo Motor, Embedded C/C++, Java (Processing IDE), Serial Communication
+Technologies:
+
+Hardware: ESP32, HC-SR04 Ultrasonic Sensor, Servo Motor
+
+Software: Embedded C, Processing (Java), Serial Communication
+
+
+Installation:
+
+1. Upload the firmware to the ESP32.
+
+
+2. Open the Processing sketch and run the visualization.
 
